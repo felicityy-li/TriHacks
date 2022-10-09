@@ -3,10 +3,24 @@ import React from "react";
 // import FeatImg from "../assets/feat.svg"
 import { Link } from "react-router-dom";
 import lungsBlueGraphic from "../Images/lungsBlueGraphic.png";
+import machineLearningBrain from "../Images/machineLearningBrain.png";
 
 export default function HomePage() {
   return (
-    <div>
+    <div
+    >
+      <h1
+        style={{
+          marginTop: "60px",
+          fontSize: "60px",
+          background: "linear-gradient(45deg, #9fc3ed, #0f55a6)",
+          WebkitBackgroundClip: 'text',
+          WebkitTextFillColor: 'transparent'
+        }}
+      >
+        CareHive
+      </h1>
+
       <div style={{ display: "flex" }}>
         <div style={{ width: "50%", margin: "50px", marginTop: "60px" }}>
           <h2>Who Are We?</h2>
@@ -23,8 +37,30 @@ export default function HomePage() {
         <img
           src={lungsBlueGraphic}
           alt=""
-          style={{ width: "30%", height: "30%", marginTop: '30px' }}
+          style={{ width: "30%", height: "30%", marginTop: "30px" }}
         />
+      </div>
+
+      <div style={{ display: "flex" }}>
+        <img
+          src={machineLearningBrain}
+          alt=""
+          style={{
+            width: "30%",
+            height: "30%",
+            marginTop: "30px",
+            marginLeft: "50px",
+          }}
+        />
+        <div style={{ width: "50%", margin: "50px", marginTop: "60px" }}>
+          <h2>What Our Model Accomplishes</h2>
+          <p>
+            Using a machine learning, our model is able to perform early
+            detections of pneumonia, thus, helping healthcare professionals in
+            diagonising this diease and hopefully, providing relief to those
+            affected by this disease.
+          </p>
+        </div>
       </div>
     </div>
   );
