@@ -16,7 +16,7 @@ export default function Navbar() {
 
         <NavMenu>
           <NavLink to="/" activeStyle>
-            About
+            Home
           </NavLink>
           <NavLink to="/events" activeStyle>
             Events
@@ -36,9 +36,6 @@ export default function Navbar() {
           {/* Second Nav */}
           {/* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}
         </NavMenu>
-        <NavBtn>
-          <NavBtnLink to="/signin">Sign In</NavBtnLink>
-        </NavBtn>
       </Nav>
     </>
   );
