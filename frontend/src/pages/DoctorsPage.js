@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-export default function Doctors() {
+export default function DoctorsPage() {
     return (
         <div>
             <div className="grid place-items-center py-5">

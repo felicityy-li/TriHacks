@@ -3,7 +3,7 @@ import React from "react"
 // import FeatImg from "../assets/feat.svg"
 import { Link } from 'react-router-dom';
 
-export default function Home() {
+export default function HomePage() {
 
     return (
         <div className='md:mx-28 mx-4 text-white py-10'>
