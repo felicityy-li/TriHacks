@@ -15,7 +15,7 @@ export default function Home() {
       machine learning. Because pneumonia is a dangerous respitatory diseases, detection at early stages is very important. In fact, young kids and the elderly are the most vulnerable
       for this infection, which comes with severe consequences. With this application, patients can ensure that they are properly diagnosed and helps reduce medical error in imaging.</p>
 
-                    <Link to="/Sign up">
+                    <Link to="/Signup">
                         <button className='bg-secondary py-2 px-8 rounded-md text-xl md:text-2xl'>Sign up</button>
                     </Link>
 
