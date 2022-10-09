@@ -36,7 +36,7 @@ export default function Home() {
                     <ul className="text-2xl">
                         <li className="list-disc">Upload chest x-ray images</li>
                         <li className="list-disc">Create an account to store your records</li>
-                        <li className="list-disc">Look for resources to help you</li>
+                        <li className="list-disc">Connect with doctors</li>
                     </ul>
                 </div>
             </div>
