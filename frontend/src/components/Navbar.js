@@ -4,8 +4,6 @@ import {
   NavLink,
   Bars,
   NavMenu,
-  NavBtn,
-  NavBtnLink,
 } from "./NavbarElements";
 
 export default function Navbar() {
@@ -18,23 +16,12 @@ export default function Navbar() {
           <NavLink to="/" activeStyle>
             Home
           </NavLink>
-          <NavLink to="/events" activeStyle>
-            Events
-          </NavLink>
-          <NavLink to="/annual" activeStyle>
-            Annual Report
-          </NavLink>
-          <NavLink to="/team" activeStyle>
-            Teams
-          </NavLink>
-          <NavLink to="/blogs" activeStyle>
-            Blogs
+          <NavLink to="/doctors_page" activeStyle>
+            X-Ray Processing
           </NavLink>
           <NavLink to="/sign-up" activeStyle>
             Sign Up
           </NavLink>
-          {/* Second Nav */}
-          {/* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}
         </NavMenu>
       </Nav>
     </>
